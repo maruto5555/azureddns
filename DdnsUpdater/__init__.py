@@ -4,10 +4,10 @@ import azure.functions as func
 from azure.identity import DefaultAzureCredential
 from azure.mgmt.dns import DnsManagementClient
 
-SUBSCRIPTION_ID = "<YOUR_SUBSCRIPTION_ID>"
-RESOURCE_GROUP = "<YOUR_RESOURCE_GROUP>"
-ZONE_NAME = "<YOUR_DNS_ZONE>"
-RECORD_SET_NAME = "<YOUR_RECORD_SET>"
+SUBSCRIPTION_ID = "223e7a56-d45a-4583-881d-b4b25b8f5c9c"
+RESOURCE_GROUP = "wwy"
+ZONE_NAME = "wongwingyin.top"
+RECORD_SET_NAME = "home"
 RECORD_TYPE = "A"
 
 def main(mytimer: func.TimerRequest) -> None:
